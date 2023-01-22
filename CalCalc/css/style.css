@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://kartinkin.net/uploads/posts/2021-07/1626148502_36-kartinkin-com-p-fon-sirenevii-nezhnii-krasivo-36.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+ 
+body  {
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+}
+.grut { 
+    width: 380px;
+    margin: auto;
+    text-align: left;
+    border: 1px solid blue;
+    background-color: #D8BFD8;
+    border-radius: 5px;
+    
+}
+
+    
+h1 {
+    color: black;
+    text-align: center;
+}
+    
+    
+.changery {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+.changery label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    border-radius: 6px;
+    user-select: none;
+
+}    
+.changery input[type=radio]:checked + label {
+    background: #A52A2A;
+} 
+.changery label:hover {
+    color: black;
+}   
+
+div input[type=text] {
+    background-color: #D3D3D3;
+}
+
+span,
+p {
+    color: #696969;
+    font-size: 14px;
+}
+
+section {
+    display: none
+}
+ 
+.submit {
+    border: 0.5px solid #800080;
+    background-color: #9370DB;
+}
+
